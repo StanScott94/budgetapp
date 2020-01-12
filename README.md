@@ -1,69 +1,83 @@
 # BUDGET APP:
 
+ project description goes here
 
-##MODELS
-User:
-    String id
-    String username
-    String password
-    String emailAddress 
-    List expenses
+## Getting Started
 
-Expense:
-    Date dateTime
-    String title
-    String description 
-    Double amount
-    Category category 
-    String importId
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Category:
-    Enum mainCategory
-    Enum subcategory
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+```
+examples
+```
+
+### Installing
+
+A step by step series of examples to get a development env running
+
+```
+example
+```
+
+```
+example
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+
+## Running the tests
+
+Explain how to run the automated tests
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
 
 
-
-##ENUMERATIONS
-MainCategory:
-   .... 
-
-SubCategory:
-   .... 
-
-
-
-##PAGES
-/login:
-    login form
-
-/dashboard:
-    /listExpences
-    /addExpence
-    /statistics
-    /importExpenses
-    display total expenses this month
-
-/listExpences:
-    list of expenses with CRUD functionality
-    sort functionality for list (date /amount / category / subcategory) 
-    search functionality (all fields / range on amount) 
-    pagination 
-
-/addExpence
-    add expence form
-
-/statistics
-    graph, x-time, y-amount, colour category
-    selectable main -> subcategory
-    selectable day / week / month /year /years
-    pagination 
-
-/importExpenses
-    configure and save setup of order of fields to be imported from file
-    select location / file field
-    preview result
-    save expenses
-
-
-
-##NOTES
