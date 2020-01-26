@@ -2,6 +2,7 @@ package com.budgetapp.application.model.data.role;
 
 public enum UserRole {
 
-	USER,
+	ROLE_USER,
+	ROLE_ADMIN
 	
 }
