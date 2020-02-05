@@ -33,7 +33,7 @@ public class DemoDataUtil {
 		expenses.add(new Expense("Weekly shopping", "groceries from Edeka", 66.87, MainCategory.FOOD, SubCategory.GROCERIES));
 		expenses.add(new Expense("Burger", "late night burger", 2.59, MainCategory.FOOD, SubCategory.FAST_FOOD));
 	
-		User user1 = new User("stanton", "scott", passwordEncoder.encode("1234"), "test@123.com", UserRole.ROLE_USER, expenses);
+		User user1 = new User("stanton", "scott", passwordEncoder.encode("1234"), "test@123.com", UserRole.ROLE_ADMIN, expenses);
 		User user2 = new User("max", "payne", passwordEncoder.encode("1234"), "max@123.com", UserRole.ROLE_USER, new ArrayList<>());
 		User user3 =new User("lewy", "lou", passwordEncoder.encode("1234"), "lou@123.com", UserRole.ROLE_USER, new ArrayList<>());
 		

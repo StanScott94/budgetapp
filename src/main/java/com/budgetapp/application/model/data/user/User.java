@@ -33,8 +33,7 @@ public class User {
 	public User() {
 	}
 
-	public User(String firstName, String lasttName, String password, String username, UserRole role,
-			List<Expense> expenses) {
+	public User(String firstName, String lasttName, String password, String username, UserRole role, List<Expense> expenses) {
 		this.firstName = firstName;
 		this.lasttName = lasttName;
 		this.password = password;
