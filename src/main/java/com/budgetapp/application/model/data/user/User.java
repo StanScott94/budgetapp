@@ -1,7 +1,6 @@
 package com.budgetapp.application.model.data.user;
 
 import java.util.List;
-import java.util.Set;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
@@ -10,7 +9,6 @@ import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
-
 import com.budgetapp.application.model.data.expense.Expense;
 import com.budgetapp.application.model.data.role.UserRole;
 
