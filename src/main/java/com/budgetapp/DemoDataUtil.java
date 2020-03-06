@@ -7,6 +7,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+
 import com.budgetapp.application.model.data.expense.Expense;
 import com.budgetapp.application.model.data.expense.MainCategory;
 import com.budgetapp.application.model.data.expense.SubCategory;

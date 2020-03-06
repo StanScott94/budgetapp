@@ -12,4 +12,7 @@ public interface ExpenseRepository extends JpaRepository<Expense, Long> {
 
 	@Query
 	List<Expense> findByUser(User user);
+	
+	@Query
+	Expense findExpenseByIdAndUser(Long id, User user);
 }
